@@ -1,0 +1,129 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.topo {
+    background-color: red;
+    width: 100vw;
+    height: 54px;
+}
+
+.linha {
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+/* Icons*/
+ion-icon {
+    font-size: 24px;
+}
+
+.icon-instagram{
+    position: absolute;
+    left: 216px;
+}
+.icon-logo{
+    position: absolute;
+    left: 258px;
+    border-left: 1px solid black;
+    padding-left: 15px;
+}
+.icon-pesquisa{
+    position: absolute;
+    left: 575px;
+}
+.icon-amei{
+    position: absolute;
+    left: 1005px;
+}
+.icon-pessoas{
+    position: absolute;
+    left: 1050px;
+}
+.icon-bussola{
+    position: absolute;
+    left: 1088px;
+}
+.icon-enviar{
+    position: absolute;
+    left: 1128px;
+}
+
+.icon-instagram{
+    position: absolute;
+    left: 216px;
+}
+.icon-logo{
+    position: absolute;
+    left: 258px;
+}
+
+.icon-logo,
+.icon-pesquisa,
+.icon-instagram,
+.icon-amei, 
+.icon-pessoas,
+.icon-bussola,
+.icon-enviar{
+    top: 15px;
+}
+
+input {
+    width: 215px;
+    height: 28px;
+}
+
+.txt {
+    text-align: center;
+}
+
+/*Container*/
+
+.container {
+    width: 935px;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.geral{
+    border: 1px solid black;
+    margin-top: 88px;
+    box-sizing: border-box;
+}
+
+.status{
+    Width : 614px;
+    margin-bottom: 24px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    box-sizing: border-box;
+
+}
+.side-bar {
+    margin-top: 88px;
+    box-sizing: border-box;
+}
+
+
+.posts {
+    Width : 614px;
+    height: 100px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.stat {
+    width: 66px;
+    height: 66px;
+    background-color: blueviolet;
+}
+
+.nome {
+    background-color: chartreuse;
+}
+<ion-icon name="chevron-forward-circle-outline"></ion-icon>
+
