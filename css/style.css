@@ -1,18 +1,34 @@
+/*Fontes*/
+@import url('https://fonts.googleapis.com/css2? family = Roboto: wght @ 300 & display = swap');
+
 body {
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .topo {
-    background-color: red;
+    background-color: #ffffff;
     width: 100vw;
     height: 54px;
+    border-bottom: 1px solid #e6e6e6;
 }
 
 .linha {
     border-bottom: 1px solid black;
-    width: 100%;
+    width: 100vw;
+}
+
+
+.nome {   
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 6px;
+    box-sizing: border-box;
+    max-width: 78px;
 }
 
 /* Icons*/
@@ -36,29 +52,21 @@ ion-icon {
 }
 .icon-amei{
     position: absolute;
-    left: 1005px;
+    left: 1088px;
 }
 .icon-pessoas{
     position: absolute;
-    left: 1050px;
+    left: 1128px;
 }
 .icon-bussola{
     position: absolute;
-    left: 1088px;
+    left: 1050px;
 }
 .icon-enviar{
     position: absolute;
-    left: 1128px;
+    left: 1005px;
 }
 
-.icon-instagram{
-    position: absolute;
-    left: 216px;
-}
-.icon-logo{
-    position: absolute;
-    left: 258px;
-}
 
 .icon-logo,
 .icon-pesquisa,
@@ -85,7 +93,6 @@ input {
     width: 935px;
     background-color: aqua;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .geral{
@@ -93,37 +100,166 @@ input {
     margin-top: 88px;
     box-sizing: border-box;
 }
-
+/*Stories*/
 .status{
     Width : 614px;
     margin-bottom: 24px;
-    height: 100px;
-    border: 1px solid black;
+    height: 118px;
+    border: 1px solid #DBDBDB;
+    background-color:#ffffff;
     display: flex;
     box-sizing: border-box;
-
-}
-.side-bar {
-    margin-top: 88px;
+    align-items: center;
+    position: relative;
+    z-index: 1;
     box-sizing: border-box;
 }
 
-
-.posts {
-    Width : 614px;
-    height: 100px;
-    border: 1px solid black;
-    box-sizing: border-box;
+.status div{
+    margin-left: 7px;
 }
 
 .stat {
     width: 66px;
     height: 66px;
     background-color: blueviolet;
+    background-image: url(../imagens/stories_background.jpg);
+    background-size: 66px 66px;
 }
 
-.nome {
-    background-color: chartreuse;
+.stat img{ 
+    width: 56px;
+    height: 56px;
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-left: 5px;
+    box-sizing: border-box;
 }
-<ion-icon name="chevron-forward-circle-outline"></ion-icon>
 
+
+.botao {
+    color: #FFFFFF;;
+    position: absolute;
+    right: -5px;
+    bottom: 50px;
+    font-size: 30px;
+    filter:drop-shadow(0 0 10px gray);
+}
+
+
+
+/*Posts*/
+.posts {
+    Width : 614px;
+    height: auto;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+
+.imagem-post {
+    width: 612px;
+    height: 612px;
+}
+
+.topo-publicacao {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    height: 60px;
+}
+
+.imagem-perfil-publicador {
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    margin-left: 17px;
+}
+
+.nome-perfil-publicador {
+    width: 109px;
+    margin-left: 17px;
+}
+
+.icon-mais {
+    font-size: 16px;
+    margin-left: 408px;
+}
+
+.ultimo-perfil-curtir {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    position: absolute;
+    left: 17px;
+    bottom: 14px;
+}
+
+.curtidas-totais {
+    height: 21px;
+    position: absolute;
+    bottom: 12px;
+    left: 42px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.rodape-posts {
+    height: 76px;
+    position: relative;
+}
+
+.rodape-posts ion-icon {
+    font-size: 22px;
+}
+.rodape-posts .icon-amei{
+    top: 10px;
+    left: 17px;
+}
+.icon-chat {
+    position: relative;
+    top: 10px;
+    left: 52px;
+}
+
+.icon-marcacao {
+    position: relative;
+    top: 10px;
+    left: 548px;
+}
+.rodape-posts .icon-enviar{
+    top: 10px;
+    left: 88px;
+}
+
+
+
+/*Sidebar*/
+.side-bar {
+    margin-top: 88px;
+    z-index: 2;
+    width: 321px;
+    padding-left: 28px;
+    background-color: #E5E5E5;
+    box-sizing: border-box;
+}
+
+img {
+    border-radius: 50px;
+}
+
+span img{
+    margin-top: 20px;
+    width: 56px;
+    height: 56px;
+}
+
+.destaque {
+    display: flex;
+    background-color: lawngreen;
+    align-items: center;
+}
+
+.nome2 {
+    padding-left: 17px;
+}
