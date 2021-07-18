@@ -104,8 +104,8 @@ input {
     box-sizing: border-box;
 }
 
-.stories div{
-    margin-left: 7px;
+.user-stories{
+  margin-left: 7px;
 }
 
 .post-stories {
