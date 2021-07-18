@@ -6,143 +6,679 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="imagem/png" href="/imagens/icone-nav.png"/>
+    <link  rel="preconnect" href="https://fonts.gpost-storiesic.com">
+    <link  href ="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel ="stylesheet">
     <title>Instagram</title>
+
 </head>
 <body>
+
+  <header class="cabecalho">
     <div class="topo">
-            <ion-icon name="logo-instagram" class="icon-instagram"></ion-icon>
-            <img src="./imagens/logo.png" class="icon-logo">
-            <input class="txt icon-pesquisa" type="search" id="busca" placeholder="Pesquisar">
-            <ion-icon name="heart-outline" class="icon-amei"></ion-icon>
-            <ion-icon name="person-outline" class="icon-pessoas"></ion-icon>
-            <ion-icon name="compass-outline" class="icon-bussola"></ion-icon>
-            <ion-icon name="paper-plane-outline" class="icon-enviar"></ion-icon>
+      <div class="logo">
+        <a href="#">
+          <ion-icon name="logo-instagram" class="icon-instagram"></ion-icon>
+        </a>
+        <a href="#">
+          <img src="./imagens/logo.png" class="icon-logo">
+        </a>
+      </div>
+
+      <div class="pesquisa">
+        <input class="alinha-texto" type="search" placeholder="Pesquisar">
+      </div>
+
+      <div class="links">
+        <a href="#"><ion-icon name="paper-plane-outline"></ion-icon></a>
+        <a href="#"><ion-icon name="compass-outline"></ion-icon></a>
+        <a href="#"><ion-icon name="heart-outline"></ion-icon></a>
+        <a href="#"><ion-icon name="person-outline"></ion-icon></a>
+      </div>
     </div>
+
+    <div class="topo-mobile">
+      <a href="#"><ion-icon name="logo-instagram" class="icon-instagram"></ion-icon></a>
+      <a href="#"><img src="./imagens/logo.png" class="icon-logo"></a>
+      <a href="#"><ion-icon name="paper-plane-outline"></ion-icon></a>
     </div>
-  
+
+  </header>
+
     <div class="container">
+
         <div class="geral">
-
             <!--Stories-->
-            <div class="status">
-                <div>
-                    <div class="stat">
-                        <img src="./imagens/9gag.jpeg">
+            <div class="stories">
+
+                <div >
+                    <div class="post-stories">
+                      <a href="#"><img src="./imagens/9gag.jpeg" class="imagem-stories"></a>
+                      <a href="#"><img src="./imagens/stories_background.jpg" class="background-stories"></a>
                     </div>
                     <div class="nome">
-                        <p>9gag</p>
-                    </div>
-                </div>
-               
-                <div>
-                    <div class="stat">
-                        <img src="./imagens/meowed.jpeg">
-                    </div>
-                    <div class="nome">
-                        <p>meowed</p>
-                    </div>
-                </div>
-               
-                <div>
-                    <div class="stat">
-                        <img src="./imagens/barked.jpeg">
-                    </div>
-                    <div class="nome">
-                        <p>barked</p>
-                    </div>
-                </div>
-               
-                <div>
-                    <div class="stat">
-                        <img src="./imagens/nathanwpylestrangeplanet.jpeg" alt="">
-                    </div>
-                    <div class="nome">
-                        <p>nathanwpyle...</p>
-                    </div>
-                </div>
-               
-                <div>
-                    <div class="stat">
-                        <img src="./imagens/wawawiwacomicsa.jpeg" alt="">
-                    </div>
-                    <div class="nome">
-                        <p>wawawiwac...</p>
+                      <a href="#"><p>9gag</p></a>
                     </div>
                 </div>
 
                 <div>
-                    <div class="stat">
-                        <img src="./imagens/responde-ai.jpeg" alt="">
+                    <div class="post-stories">
+                        <a href="#"> <img src="./imagens/meowed.jpeg" class="imagem-stories"></a>
+                        <a href="#"> <img src="./imagens/stories_background.jpg" class="background-stories"></a>
                     </div>
                     <div class="nome">
-                        <p>respondeai</p>
+                        <a href="#"><p>meowed</p></a>
                     </div>
                 </div>
 
                 <div>
-                    <div class="stat">
-                        <img src="./imagens/filomoderna.jpeg" alt="">
+                    <div class="post-stories">
+                        <a href="#"> <img src="./imagens/barked.jpeg" class="imagem-stories"></a>
+                        <a href="#"> <img src="./imagens/stories_background.jpg" class="background-stories"></a>
                     </div>
                     <div class="nome">
-                        <p>filomoderna</p>
+                        <a href="#"><p>barked</p></a>
                     </div>
                 </div>
 
                 <div>
-                    <div class="stat">
-                        <img src="./imagens/memeriagourmet.jpeg" alt="">
+                    <div class="post-stories">
+                        <a href="#"> <img src="./imagens/nathanwpylestrangeplanet.jpeg" class="imagem-stories"></a>
+                        <a href="#"> <img src="./imagens/stories_background.jpg" class="background-stories"></a>
                     </div>
                     <div class="nome">
-                        <p>memeriago.</p>
+                        <a href="#"><p>nathanwpyle...</p></a>
                     </div>
                 </div>
 
-                <ion-icon class="botao" name="chevron-forward-circle-sharp"></ion-icon>
+                <div>
+                    <div class="post-stories">
+                        <a href="#"> <img src="./imagens/wawawiwacomicsa.jpeg" class="imagem-stories"></a>
+                        <a href="#"> <img src="./imagens/stories_background.jpg" class="background-stories"></a>
+                    </div>
+                    <div class="nome">
+                        <a href="#"><p>wawawiwac...</p></a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post-stories">
+                        <a href="#"> <img src="./imagens/responde-ai.jpeg" class="imagem-stories"></a>
+                        <a href="#"> <img src="./imagens/stories_background.jpg" class="background-stories"></a>
+                    </div>
+                    <div class="nome">
+                        <a href="#"><p>respondeai</p></a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post-stories">
+                        <a href="#"> <img src="./imagens/filomoderna.jpeg" class="imagem-stories"></a>
+                        <a href="#"> <img src="./imagens/stories_background.jpg" class="background-stories"></a>
+                    </div>
+                    <div class="nome">
+                        <a href="#"><p>filomoderna</p></a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post-stories">
+                        <a href="#"> <img src="./imagens/memeriagourmet.jpeg" class="imagem-stories"></a>
+                        <a href="#"> <img src="./imagens/stories_background.jpg" class="background-stories"></a>
+                    </div>
+                    <div class="nome">
+                        <a href="#"><p>memeriago.</p></a>
+                    </div>
+                </div>
+
+              <a href="#">
+                  <ion-icon class="botao" name="chevron-forward-circle-sharp"></ion-icon>
+              </a>
             </div>
 
 
 
              <!--Posts-->
             <div class="posts">
+
+
                 <div class="post">
-                    
+
                     <div class="topo-publicacao">
-                        <img src="./imagens/meowed.jpeg" class="imagem-perfil-publicador">
-                        <p class="nome-perfil-publicador">meowed</p> 
-                        <ion-icon name="ellipsis-horizontal" class="icon-mais"></ion-icon>    
+                      <a href="#" class="imagem-perfil-publicador"><img src="./imagens/memeriagourmet.jpeg" class="imagem-perfil"></a>
+                      <a href="#" class="nome-perfil-publicador"><p class="nome-perfil">memeriagourmet</p></a>
+                      <a href="#" class="icon-mais-informacoes"><ion-icon name="ellipsis-horizontal" class="icon-mais"></ion-icon></a>
                     </div>
-                    
+
+                    <div>
+                        <video muted width="100%" height="100%" controls autoplay>
+                        <source src="videos/wonder-woman.mp4" type="video/mp4">
+                        <source src="videos/wonder-woman.ogv" type="video/ogv">
+
+                    </div>
+
+                    <div class="rodape-posts">
+                        <a href="#"  class="icon-amei"><ion-icon name="heart-outline"></ion-icon></a>
+                        <a href="#"  class="icon-enviar"><ion-icon name="paper-plane-outline"></ion-icon></a>
+                        <a href="#"  class="icon-chat"><ion-icon name="chatbubble-outline"></ion-icon></a>
+                        <a href="#"  class="icon-marcacao"><ion-icon name="bookmark-outline"></ion-icon></a>
+                        <a href="#"  class="ultimo-perfil-curtir"><img src="./imagens/9gag.jpeg"></a>
+                        <p class="curtidas-totais">Curtido por <strong>9gag</strong> e <strong>1.986.523 pessoas</strong></p>
+                    </div>
+
+                    <div class="comentarios-gerais">
+                        <div class="comentario">
+                          <p class="nome-usuario-comentario"><strong>barked</strong>
+                          <p class="comentario-usuario">A great actress!!!</p>
+                          <button type="button" class="comentario-amei"><ion-icon name="heart"></ion-icon></button>
+                        </div>
+
+                        <div class="comentario">
+                          <p class="nome-usuario-comentario"><strong>9gag</strong>
+                          <p class="comentario-usuario">Real beautiful wsasaoman s2s2s2</p>
+                          <button type="button" class="comentario-amei"><ion-icon name="heart"></ion-icon></button>
+                        </div>
+
+                        <div class="box-comentario">
+                          <input class="input-comentario" type="text" placeholder="Adicione um comentário...">
+                          <button type="submit" class="botao-publicar">Publicar</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="post">
+                    <div class="topo-publicacao">
+                      <a href="#" class="imagem-perfil-publicador"><img src="./imagens/meowed.jpeg" class="imagem-perfil"></a>
+                      <a href="#" class="nome-perfil-publicador"><p class="nome-perfil">meowed</p></a>
+                      <a href="#" class="icon-mais-informacoes"><ion-icon name="ellipsis-horizontal" class="icon-mais"></ion-icon></a>
+                    </div>
                     <div>
                         <img src="./imagens/gato.jpeg" class="imagem-post">
                     </div>
 
+                    <div class="rodape-posts">
+                        <a href="#"  class="icon-amei"><ion-icon name="heart-outline"></ion-icon></a>
+                        <a href="#"  class="icon-enviar"><ion-icon name="paper-plane-outline"></ion-icon></a>
+                        <a href="#"  class="icon-chat"><ion-icon name="chatbubble-outline"></ion-icon></a>
+                        <a href="#"  class="icon-marcacao"><ion-icon name="bookmark-outline"></ion-icon></a>
+                        <a href="#"  class="ultimo-perfil-curtir"><img src="./imagens/responde-ai.jpeg"></a>
+                        <p class="curtidas-totais">Curtido por <strong>respondeai</strong> e <strong>101.523 pessoas</strong></p>
+                    </div>
+
+                    <div class="comentarios-gerais">
+
+                        <div class="comentario">
+                          <p class="nome-usuario-comentario"><strong>bad-vibes</strong>
+                          <p class="comentario-usuario">ohhhhhhhhhhhhhhhhhh very cuteeee</p>
+                          <button type="button" class="comentario-amei"><ion-icon name="heart"></ion-icon></button>
+                        </div>
+
+                        <div class="comentario">
+                          <p class="nome-usuario-comentario"><strong>smallcutecats</strong>
+                          <p class="comentario-usuario">This is my friend miauuu</p>
+                          <button type="button" class="comentario-amei"><ion-icon name="heart"></ion-icon></button>
+                        </div>
+
+                        <div class="box-comentario">
+                          <input class="input-comentario" type="text" placeholder="Adicione um comentário...">
+                          <button type="submit" class="botao-publicar">Publicar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="topo-publicacao">
+                      <a href="#" class="imagem-perfil-publicador"><img src="./imagens/filomoderna.jpeg" class="imagem-perfil"></a>
+                      <a href="#" class="nome-perfil-publicador"><p class="nome-perfil">filomoderna</p></a>
+                      <a href="#" class="icon-mais-informacoes"><ion-icon name="ellipsis-horizontal" class="icon-mais"></ion-icon></a>
+                    </div>
+                    <div>
+                        <img src="./imagens/attack.jpg" class="imagem-post">
+                    </div>
 
                     <div class="rodape-posts">
-                        <ion-icon name="heart-outline" class="icon-amei"></ion-icon>
-                        <ion-icon name="paper-plane-outline" class="icon-enviar"></ion-icon>
-                        <ion-icon name="chatbubble-outline" class="icon-chat a"></ion-icon>
-                        <ion-icon name="bookmark-outline" class="icon-marcacao"></ion-icon>
-                        <img src="./imagens/responde-ai.jpeg" class="ultimo-perfil-curtir">
-                        <p class="curtidas-totais">Curtido por <strong>respondeai</strong> e <strong>101.523 pessoas</strong></p>
+                        <a href="#"  class="icon-amei"><ion-icon name="heart-outline"></ion-icon></a>
+                        <a href="#"  class="icon-enviar"><ion-icon name="paper-plane-outline"></ion-icon></a>
+                        <a href="#"  class="icon-chat"><ion-icon name="chatbubble-outline"></ion-icon></a>
+                        <a href="#"  class="icon-marcacao"><ion-icon name="bookmark-outline"></ion-icon></a>
+                        <a href="#"  class="ultimo-perfil-curtir"><img src="./imagens/bad-vibes.jpeg"></a>
+                        <p class="curtidas-totais">Curtido por <strong>bad-vibes</strong> e <strong>835.523 pessoas</strong></p>
+                    </div>
+
+                    <div class="comentarios-gerais">
+                        <div class="comentario">
+                          <p class="nome-usuario-comentario"><strong>catanacomics</strong>
+                          <p class="comentario-usuario">The best anime of the century!</p>
+                          <button type="button" class="comentario-amei"><ion-icon name="heart"></ion-icon></button>
+                        </div>
+
+                        <div class="comentario">
+                          <p class="nome-usuario-comentario"><strong>respondeai</strong>
+                          <p class="comentario-usuario">Hey hey hey very interesting</p>
+                          <button type="button" class="comentario-amei"><ion-icon name="heart"></ion-icon></button>
+                        </div>
+
+                        <div class="box-comentario">
+                          <input class="input-comentario" type="text" placeholder="Adicione um comentário...">
+                          <button type="submit" class="botao-publicar">Publicar</button>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="post">
+
+                    <div class="topo-publicacao">
+                      <a href="#" class="imagem-perfil-publicador"><img src="./imagens/meowed.jpeg" class="imagem-perfil"></a>
+                      <a href="#" class="nome-perfil-publicador"><p class="nome-perfil">meowed</p></a>
+                      <a href="#" class="icon-mais-informacoes"><ion-icon name="ellipsis-horizontal" class="icon-mais"></ion-icon></a>
+                    </div>
+
+                    <div>
+                        <img src="./imagens/rainha.jpg" class="imagem-post">
+                    </div>
+
+                    <div class="rodape-posts">
+                        <a href="#"  class="icon-amei"><ion-icon name="heart-outline"></ion-icon></a>
+                        <a href="#"  class="icon-enviar"><ion-icon name="paper-plane-outline"></ion-icon></a>
+                        <a href="#"  class="icon-chat"><ion-icon name="chatbubble-outline"></ion-icon></a>
+                        <a href="#"  class="icon-marcacao"><ion-icon name="bookmark-outline"></ion-icon></a>
+                        <a href="#"  class="ultimo-perfil-curtir"><img src="./imagens/barked.jpeg"></a>
+                        <p class="curtidas-totais">Curtido por <strong>barked</strong> e <strong>999.523 pessoas</strong></p>
+                    </div>
+
+                    <div class="comentarios-gerais">
+                        <div class="comentario">
+                          <p class="nome-usuario-comentario"><strong>bad-vibes</strong>
+                          <p class="comentario-usuario"> hannnnn! the naughty grandma</p>
+                          <button type="button" class="comentario-amei"><ion-icon name="heart"></ion-icon></button>
+                        </div>
+
+                        <div class="comentario">
+                          <p class="nome-usuario-comentario"><strong>respondeai</strong>
+                          <p class="comentario-usuario">kkkkkkkkkkkkk</p>
+                          <button type="button" class="comentario-amei"><ion-icon name="heart"></ion-icon></button>
+                        </div>
+
+                        <div class="box-comentario">
+                          <input class="input-comentario" type="text" placeholder="Adicione um comentário...">
+                          <button type="submit" class="botao-publicar">Publicar</button>
+                        </div>
                     </div>
 
 
                 </div>
+
+                <div class="post">
+
+                    <div class="topo-publicacao">
+                      <a href="#" class="imagem-perfil-publicador"><img src="./imagens/barked.jpeg" class="imagem-perfil"></a>
+                      <a href="#" class="nome-perfil-publicador"><p class="nome-perfil">barked</p></a>
+                      <a href="#" class="icon-mais-informacoes"><ion-icon name="ellipsis-horizontal" class="icon-mais"></ion-icon></a>
+                    </div>
+
+                    <div>
+                        <img src="./imagens/dog.jpeg" class="imagem-post">
+                    </div>
+
+                    <div class="rodape-posts">
+                        <a href="#"  class="icon-amei"><ion-icon name="heart-outline"></ion-icon></a>
+                        <a href="#"  class="icon-enviar"><ion-icon name="paper-plane-outline"></ion-icon></a>
+                        <a href="#"  class="icon-chat"><ion-icon name="chatbubble-outline"></ion-icon></a>
+                        <a href="#"  class="icon-marcacao"><ion-icon name="bookmark-outline"></ion-icon></a>
+                        <a href="#" class="ultimo-perfil-curtir"><img src="./imagens/adorableanimals..jpeg"></a>
+                        <p class="curtidas-totais"> Curtido por <strong>adorable_animals</strong> e <strong>outras 99.159 pessoas</strong></p>
+                    </div>
+
+                    <div class="comentarios-gerais">
+                        <div class="comentario">
+                          <p class="nome-usuario-comentario"><strong>catanacomics</strong>
+                          <p class="comentario-usuario">so cute</p>
+                          <button type="button" class="comentario-amei"><ion-icon name="heart"></ion-icon></button>
+                        </div>
+
+                        <div class="comentario">
+                          <p class="nome-usuario-comentario"><strong>respondeai</strong>
+                          <p class="comentario-usuario">prettyyyy</p>
+                          <button type="button" class="comentario-amei"><ion-icon name="heart"></ion-icon></button>
+                        </div>
+
+                        <div class="box-comentario">
+                          <input class="input-comentario" type="text" placeholder="Adicione um comentário...">
+                          <button type="submit" class="botao-publicar">Publicar</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="post">
+
+                    <div class="topo-publicacao">
+                      <a href="#" class="imagem-perfil-publicador"><img src="./imagens/razoesparaacreditar.jpeg" class="imagem-perfil"></a>
+                      <a href="#" class="nome-perfil-publicador"><p class="nome-perfil">razoesparaacreditar</p></a>
+                      <a href="#" class="icon-mais-informacoes"><ion-icon name="ellipsis-horizontal" class="icon-mais"></ion-icon></a>
+                    </div>
+
+                    <div>
+                        <video muted width="100%" height="100%" controls autoplay>
+                        <source src="videos/tue.mp4" type="video/mp4">
+                        <source src="videos/tue.ogv" type="video/ogv">
+                    </div>
+
+                    <div class="rodape-posts">
+                        <a href="#"  class="icon-amei"><ion-icon name="heart-outline"></ion-icon></a>
+                        <a href="#"  class="icon-enviar"><ion-icon name="paper-plane-outline"></ion-icon></a>
+                        <a href="#"  class="icon-chat"><ion-icon name="chatbubble-outline"></ion-icon></a>
+                        <a href="#"  class="icon-marcacao"><ion-icon name="bookmark-outline"></ion-icon></a>
+                        <a href="#"  class="ultimo-perfil-curtir"><img src="./imagens/adorableanimals..jpeg"></a>
+                        <p class="curtidas-totais">Curtido por <strong>adorableanimals</strong> e <strong>101.523 pessoas</strong></p>
+                    </div>
+
+                    <div class="comentarios-gerais">
+                        <div class="comentario">
+                          <p class="nome-usuario-comentario"><strong>barked</strong>
+                          <p class="comentario-usuario">kkkkkkkkkkkkkkkkkk</p>
+                          <button type="button" class="comentario-amei"><ion-icon name="heart"></ion-icon></button>
+                        </div>
+
+                        <div class="comentario">
+                          <p class="nome-usuario-comentario"><strong>bad-vibes</strong>
+                          <p class="comentario-usuario">where's the meme bro then are you?</p>
+                          <button type="button" class="comentario-amei"><ion-icon name="heart"></ion-icon></button>
+                        </div>
+
+                        <div class="box-comentario">
+                          <input class="input-comentario" type="text" placeholder="Adicione um comentário...">
+                          <button type="submit" class="botao-publicar">Publicar</button>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="post">
+
+                    <div class="topo-publicacao">
+                      <a href="#" class="imagem-perfil-publicador"><img src="./imagens/9gag.jpeg" class="imagem-perfil"></a>
+                      <a href="#" class="nome-perfil-publicador"><p class="nome-perfil">9gag</p></a>
+                      <a href="#" class="icon-mais-informacoes"><ion-icon name="ellipsis-horizontal" class="icon-mais"></ion-icon></a>
+                    </div>
+
+                    <div>
+                        <img src="./imagens/ceifador.jpg" class="imagem-post">
+                    </div>
+
+                    <div class="rodape-posts">
+                        <a href="#"  class="icon-amei"><ion-icon name="heart-outline"></ion-icon>
+                        <a href="#"  class="icon-enviar"><ion-icon name="paper-plane-outline"></ion-icon>
+                        <a href="#"  class="icon-chat"><ion-icon name="chatbubble-outline"></ion-icon>
+                        <a href="#"  class="icon-marcacao"><ion-icon name="bookmark-outline"></ion-icon>
+                        <a href="#" class="ultimo-perfil-curtir"><img src="./imagens/responde-ai.jpeg"></a>
+                        <p class="curtidas-totais">Curtido por <strong>respondeai</strong> e <strong>1.165.523 pessoas</strong></p>
+                    </div>
+
+                    <div class="comentarios-gerais">
+                        <div class="comentario">
+                          <p class="nome-usuario-comentario"><strong>catanacomics</strong>
+                          <p class="comentario-usuario">Death is coming...</p>
+                          <button type="button" class="comentario-amei"><ion-icon name="heart"></ion-icon></button>
+                        </div>
+
+                        <div class="comentario">
+                          <p class="nome-usuario-comentario"><strong>respondeai</strong>
+                          <p class="comentario-usuario">Nightmare</p>
+                          <button type="button" class="comentario-amei"><ion-icon name="heart"></ion-icon></button>
+                        </div>
+
+                        <div class="box-comentario">
+                          <input class="input-comentario" type="text" placeholder="Adicione um comentário...">
+                          <button type="submit" class="botao-publicar">Publicar</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="post">
+
+                    <div class="topo-publicacao">
+                      <a href="#" class="imagem-perfil-publicador"><img src="./imagens/smallcutecats.jpeg" class="imagem-perfil"></a>
+                      <a href="#" class="nome-perfil-publicador"><p class="nome-perfil">smallcutecats</p></a>
+                      <a href="#" class="icon-mais-informacoes"><ion-icon name="ellipsis-horizontal" class="icon-mais"></ion-icon></a>
+                    </div>
+
+                    <div>
+                        <video muted width="100%" height="100%" controls autoplay>
+                        <source src="videos/films.mp4" type="video/mp4">
+                        <source src="videos/films.ogv" type="video/ogv">
+
+                    </div>
+
+                    <div class="rodape-posts">
+                        <a href="#"  class="icon-amei"><ion-icon name="heart-outline"></ion-icon></a>
+                        <a href="#"  class="icon-enviar"><ion-icon name="paper-plane-outline"></ion-icon></a>
+                        <a href="#"  class="icon-chat"><ion-icon name="chatbubble-outline"></ion-icon></a>
+                        <a href="#"  class="icon-marcacao"><ion-icon name="bookmark-outline"></ion-icon></a>
+                        <a href="#"  class="ultimo-perfil-curtir"><img src="./imagens/memeriagourmet.jpeg"></a>
+                        <p class="curtidas-totais">Curtido por <strong>memeriagourmet</strong> e <strong>101.523 pessoas</strong></p>
+                    </div>
+
+                    <div class="comentarios-gerais">
+                        <div class="comentario">
+                          <p class="nome-usuario-comentario"><strong>nathanwpylestrangeplanet</strong>
+                          <p class="comentario-usuario">woww looking forward to these movies</p>
+                          <button type="button" class="comentario-amei"><ion-icon name="heart"></ion-icon></button>
+                        </div>
+
+                        <div class="comentario">
+                          <p class="nome-usuario-comentario"><strong>respondeai</strong>
+                          <p class="comentario-usuario">Matrix!!!</p>
+                          <button type="button" class="comentario-amei"><ion-icon name="heart"></ion-icon></button>
+                        </div>
+
+                        <div class="box-comentario">
+                          <input class="input-comentario" type="text" placeholder="Adicione um comentário...">
+                          <button type="submit" class="botao-publicar">Publicar</button>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="post">
+
+                    <div class="topo-publicacao">
+                      <a href="#" class="imagem-perfil-publicador"><img src="./imagens/nathanwpylestrangeplanet.jpeg" class="imagem-perfil"></a>
+                      <a href="#" class="nome-perfil-publicador"><p class="nome-perfil">nathanwpyle</p></a>
+                      <a href="#" class="icon-mais-informacoes"><ion-icon name="ellipsis-horizontal" class="icon-mais"></ion-icon></a>
+                    </div>
+
+                    <div>
+                        <video muted width="100%" height="100%" controls autoplay>
+                        <source src="videos/marioxsonic.mp4" type="video/mp4">
+                        <source src="videos/marioxsonic.ogv" type="video/ogv">
+                    </div>
+
+                    <div class="rodape-posts">
+                        <a href="#"  class="icon-amei"><ion-icon name="heart-outline"></ion-icon></a>
+                        <a href="#"  class="icon-enviar"><ion-icon name="paper-plane-outline"></ion-icon></a>
+                        <a href="#"  class="icon-chat"><ion-icon name="chatbubble-outline"></ion-icon></a>
+                        <a href="#"  class="icon-marcacao"><ion-icon name="bookmark-outline"></ion-icon></a>
+                        <a href="#"  class="ultimo-perfil-curtir"><img src="./imagens/chibirdart.jpeg"></a>
+                        <p class="curtidas-totais">Curtido por <strong>chibirdart</strong> e <strong>2.981.500 pessoas</strong></p>
+                    </div>
+
+                    <div class="comentarios-gerais">
+                        <div class="comentario">
+                          <p class="nome-usuario-comentario"><strong>catanacomics</strong>
+                          <p class="comentario-usuario">#teamMario</p>
+                          <button type="button" class="comentario-amei"><ion-icon name="heart"></ion-icon></button>
+                        </div>
+
+                        <div class="comentario">
+                          <p class="nome-usuario-comentario"><strong>memeriagourmet</strong>
+                          <p class="comentario-usuario">hehehe always #teamSonic</p>
+                          <button type="button" class="comentario-amei"><ion-icon name="heart"></ion-icon></button>
+                        </div>
+
+                        <div class="box-comentario">
+                          <input class="input-comentario" type="text" placeholder="Adicione um comentário...">
+                          <button type="submit" class="botao-publicar">Publicar</button>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
         </div>
 
         <!--Side-bar-->
         <div class="side-bar">
+
             <div class="destaque">
-                <span><img src="./imagens/catanacomics.jpeg"></span>
                 <span>
-                    <p class="nome2">catanacomics</p>
-                    <p class="nome2">Catana</p>
+                   <a href="#"><img src="./imagens/catanacomics.jpeg"></a>
+                </span>
+                <span>
+                  <a href="#">  <p class="titulo-destaque">catanacomics</p></a>
+                  <a href="#">  <p class="subtitulo-destaque">Catana</p></a>
                 </span>
             </div>
-       
+
+            <div class="sugestoes">
+
+                <div class="menu">
+                  <span>
+                      <p class="sugestoes-para-voce">Sugestões para você</p>
+                  </span>
+                  <span>
+                    <a href="#"><p class="ver-tudo">Ver tudo</p></a>
+                  </span>
+                </div>
+
+                <div class="usuarios">
+                  <span class="usuario-seguir">
+                    <span>
+                      <a href="#"><img src="./imagens/bad-vibes.jpeg"></a>
+                    </span>
+
+                    <span class="descricao">
+                      <a href="#"><p class="nome-usuario">bad.vibes.memes</p></a>
+                      <p class="titulo-seguir">Segue você</p>
+                    </span>
+                  </span>
+
+                  <span>
+                      <a href="#" class="seguir">Seguir</a>
+                  </span>
+                </div>
+
+                <div class="usuarios">
+                  <span class="usuario-seguir">
+                    <span>
+                      <a href="#"><img src="./imagens/chibirdart.jpeg"></a>
+                    </span>
+
+                    <span class="descricao">
+                      <a href="#"><p class="nome-usuario">chibirdart</p></a>
+                      <p class="titulo-seguir">Segue você</p>
+                    </span>
+
+                  </span>
+                  <span>
+                      <a href="#" class="seguir">Seguir</a>
+                  </span>
+                </div>
+
+
+                <div class="usuarios">
+                  <span class="usuario-seguir">
+                    <span>
+                      <a href="#"><img src="./imagens/razoesparaacreditar.jpeg"></a>
+                    </span>
+
+                    <span class="descricao">
+                      <a href="#"><p class="nome-usuario">razoesparaacreditar</p></a>
+                      <p class="titulo-seguir">Novo no instagram</p>
+                    </span>
+
+                  </span>
+                  <span>
+                      <a href="#" class="seguir">Seguir</a>
+                  </span>
+                </div>
+
+
+                <div class="usuarios">
+                  <span class="usuario-seguir">
+                    <span>
+                      <a href="#"><img src="./imagens/adorableanimals..jpeg"></a>
+                    </span>
+                    <span class="descricao">
+                      <a href="#"><p class="nome-usuario">adorable_animals</p></a>
+                      <p class="titulo-seguir">Segue você</p>
+                    </span>
+                  </span>
+                  <span>
+                      <a href="#" class="seguir">Seguir</a>
+                  </span>
+                </div>
+
+
+                <div class="usuarios">
+                  <span class="usuario-seguir">
+                    <span>
+                      <a href="#"><img src="./imagens/smallcutecats.jpeg"></a>
+                    </span>
+
+                    <span class="descricao">
+                      <a href="#"><p class="nome-usuario">smallcutecats</p></a>
+                      <p class="titulo-seguir">Segue você</p>
+                    </span>
+
+                  </span>
+                  <span>
+                      <a href="#" class="seguir">Seguir</a>
+                  </span>
+                </div>
+            </div>
+
+            <div class="sobre-a-empresa">
+
+              <span class="links-sobre-a-empresa">
+                <p>
+                  <a href="#">Sobre</a> •
+                  <a href="#">Ajuda</a> •
+                  <a href="#">Imprensa</a> •
+                  <a href="#">API</a> •
+                  <a href="#">Carreiras</a> •
+                  <a href="#">Privacidade</a> •
+                  <a href="#">Termos</a> •
+                  <a href="#">Localizações</a> •
+                  <a href="#">Contas mais relevantes</a> •
+                  <a href="#">Hastags</a> •
+                  <a href="#">Idioma</a>
+                </p>
+              </span>
+
+              <p class="direitos">© 2021 INSTAGRAM DO FACEBOOK</p>
+            </div>
+
+
         </div>
-      
+
+
+        <div class="barra-inferior">
+          <div>
+            <a href="#"><ion-icon name="home"></ion-icon></a>
+            <a href="#"><ion-icon name="search-outline"></ion-icon></a>
+            <a href="#"><ion-icon name="add-circle-outline"></ion-icon></a>
+            <a href="#"><ion-icon name="heart-outline"></ion-icon></a>
+            <a href="#"><ion-icon name="person-outline"></ion-icon></a>
+          </div>
+        </div>
+
     </div>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
