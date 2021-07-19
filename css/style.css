@@ -38,8 +38,6 @@ body {
   align-items:center;
 }
 
-.pesquisa {
-}
 
 .links ion-icon{
   margin-left: 20px;
@@ -74,8 +72,11 @@ input {
     opacity: 0.5;
 }
 
-.alinha-texto {
+.caixa-de-pesquisa {
     text-align: center;
+    border:1px solid #DBDBDB;
+    border-radius: 3px;
+    outline: 0;
 }
 
 /*Container*/
@@ -95,6 +96,7 @@ input {
     margin-bottom: 24px;
     height: 118px;
     border: 1px solid #DBDBDB;
+    border-radius: 3px;
     background-color:#ffffff;
     display: flex;
     box-sizing: border-box;
@@ -105,7 +107,7 @@ input {
 }
 
 .user-stories{
-  margin-left: 7px;
+  margin-left: 13px;
 }
 
 .post-stories {
@@ -156,6 +158,8 @@ input {
   margin-bottom: 60px;
   background-color: #ffffff;
   border: 1px solid #DBDBDB;
+  border-radius: 3px;
+
 }
 
 
@@ -164,11 +168,6 @@ input {
     height: 612px;
 }
 
-.imagem-post:hover{
-  -moz-transform: scale(1);
-  -webkit-transform: scale(1);
-  transform: scale(1);
-}
 
 /**Topo das publicações**/
 .topo-publicacao {
